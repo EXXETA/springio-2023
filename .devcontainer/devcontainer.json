@@ -1,0 +1,15 @@
+{
+  "name": "ProjectMatcher",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vmware.vscode-boot-dev-pack",
+        "redhat.java",
+        "fwcd.kotlin",
+        "ms-python.python",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
