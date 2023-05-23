@@ -15,6 +15,7 @@
 	<description>Exxeta Project-Matcher based on Spring Boot, GraalVM and Python</description>
 	<properties>
 		<java.version>17</java.version>
+		<graalvm.version>22.3.1</graalvm.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -44,7 +45,7 @@
 			<groupId>org.graalvm.sdk</groupId>
 			<artifactId>graal-sdk</artifactId>
 			<scope>provided</scope>
-			<version>22.3.1</version>
+			<version>${graalvm.version}</version>
 		</dependency>
 
 	</dependencies>
